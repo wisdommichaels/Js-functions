@@ -22,9 +22,8 @@ function Capitalize(arr){
  }
  return console.log(store1.join(" "));
 }
+4
 Capitalize("wisdom will be a good developer")
-
-// 4
 
 function findMax(arr){
     let max = arr[0];
@@ -125,4 +124,42 @@ return arr;
 
 }
 console.log ( fibb(7) )
+
+
+function addNum(number){
+    let sum = 0;
+    for (let i = 0; i <= number; i++) {
+        sum = sum + i;
+    }
+    return sum;
+}
+
+console.log(addNum());
+
+function addingEvenNum(number){
+    let sum = 0;
+    for (let i = 0; i <= number; i++) {
+        if (i % 2 === 0) {
+            sum = sum + i; 
+        }
+    }
+    return sum;
+}
+
+console.log(addingEvenNum(12));
+
+
+function addingOddNum(number){
+    let sum = 0;
+    for (let i = 0; i <= number; i++) {
+        if (i % 2 !=0) {
+            sum = sum + i; 
+        }
+    }
+    return sum;
+}
+
+console.log(addingOddNum(11));
+
+
 
