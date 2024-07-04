@@ -1,13 +1,16 @@
 function addEven(num) {
     let sum = 0;
     let i = 0;
-    while (i<=num) {
+    while (i <= num) {
+        if (i % 2 != 0) {
+            i++;
+          continue;
+        }
         sum = sum + i;
         i++;
 
     }
-
-    return 
+    return sum;
         
     }
 
