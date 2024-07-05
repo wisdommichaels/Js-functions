@@ -163,19 +163,6 @@ console.log(addingOddNum(11));
 
 
 
-function addEven(num) {
-    let sum = 0;
-    let i=0;
-    while (i>=num) {
-        sum = sum + i;
-        i++;
 
-    }
-    return sum;
-
-        
-    }
-
-    console.log(addEven(10));
     
 
