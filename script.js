@@ -43,3 +43,12 @@ function addNum(num){
   return sum;
 }
 console.log(addNum(10));
+
+const name1 = prompt("whats your name")
+const name2 = prompt("whats your name")
+let num = Math.random () * 100;
+
+num=Math.floor(num) + 1;
+
+alert("their percentage is " + num + " %");
+
